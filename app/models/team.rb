@@ -8,7 +8,8 @@ class Team
     @members = params[:team][:members]
     # @member1_name = ["team"]["members"][]["name"]
 
-    @member1_power = ["team"]["members"][0]["power"]
+    # @member1_power = ["team"]["members"][0]["power"]
+    @member1_power = @members[0]["power"]
     binding.pry
 
     # @member1_bio = ["team"]["members"][0]["bio"]
