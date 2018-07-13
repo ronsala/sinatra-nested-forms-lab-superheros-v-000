@@ -3,7 +3,6 @@ class Team
 
   def initialize(params)
     @team_name = params[:team][:name]
-    # binding.pry
     @team_motto = params[:team][:motto]
     @members = params[:team][:members]
     @member1_name = @members[0]["name"]
