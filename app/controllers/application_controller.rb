@@ -11,7 +11,7 @@ class App < Sinatra::Base
   post '/teams' do
     @team = Team.new(params)
 
-binding.pry
+# binding.pry
     # params[:team][:members].each do |details|
     # @member = Member.new(args)
     # # end
