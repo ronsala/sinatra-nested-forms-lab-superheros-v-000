@@ -1,5 +1,5 @@
 class Team
-  attr_reader :team_name, :team_motto, :members, :member1_name, :member1_power, :member1_bio, :member2_name, :member2_power, :member2_bio, :member3_name, :member3_power, :member3_bio
+  # attr_reader :team_name, :team_motto, :members, :member1_name, :member1_power, :member1_bio, :member2_name, :member2_power, :member2_bio, :member3_name, :member3_power, :member3_bio
 
   def initialize(params)
     @team_name = params[:team][:name]
