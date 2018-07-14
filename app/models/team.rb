@@ -31,6 +31,7 @@ class Team
       @member3_name = @members[i]["name"]
       @member3_power = @members[i]["power"]
       @member3_bio = @members[i]["bio"]
+      binding.pry
     end
   end
 end
