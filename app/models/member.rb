@@ -4,7 +4,6 @@ class Member
   @@members = []
 
   def initialize(params)
-    # binding.pry
     @member_name = args[:name]
     @member_power = member1_power
     @member1_bio = member1_bio
